@@ -1,0 +1,34 @@
+{
+  "name": "integrate",
+  "version": "0.0.1",
+  "description": "remote work",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zairl23/integrate.git"
+  },
+  "keywords": [
+    "heroku",
+    "integrate",
+    "web"
+  ],
+  "author": "neychang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zairl23/integrate/issues"
+  },
+  "homepage": "https://github.com/zairl23/integrate",
+  "dependencies": {
+    "koa-static": "~1.4.2",
+    "koa-router": "~2.3.3",
+    "koa": "~0.3.0",
+    "request": "~2.33.0"
+  },
+  "engines": {
+    "node": "0.11.9"
+  }
+}
+

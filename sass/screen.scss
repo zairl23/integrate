@@ -1,0 +1,50 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "base";
+
+/* -------------------------------------------------------------------------*/
+/* Layout */
+
+body {
+    background-color:#333;
+    color: #fff;
+    a {
+        color: #fff;    
+        &:hover {
+            color: blue;        
+        }    
+    }
+}
+.container {
+  @include container;
+  @include susy-grid-background;
+
+    // navigation  
+    .list {
+        ul {
+            float:left;
+            list-style:none;          
+            li {
+                float:left;
+                padding:0.5rem 1rem;
+        
+                a {
+                    text-decoration:none; 
+                }
+                
+            }        
+        }
+    }
+    
+  // show images  
+  #img {
+    text-align: center;
+  }
+
+  // upload form
+  #upui {
+    display:none;
+  }
+  
+}
