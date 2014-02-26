@@ -4,7 +4,7 @@ $(document).ready(function(){
     var size  = '-ui.jpg';
     var sizeLocal = 'images/8meow.png';
     var login = ['登录.jpg', '登录成功.jpg'];
-    var signup = ['8meow.png'];
+    var signup = ['注册.jpg'];
     var home = ['首页(主题).jpg', '首页(后台上传).jpg'];
     var relationship = ['关系页.jpg'];
     var homeUser = ['个人页-基本信息.jpg', '个人页-设置.jpg'];
