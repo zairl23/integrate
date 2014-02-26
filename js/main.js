@@ -4,7 +4,7 @@ $(document).ready(function(){
     var size  = '-ui.jpg';
     var sizeLocal = 'images/8meow.png';
     var login = [
-            {"view": "登录.jpg", "desc":""},
+            {"view": "登录.jpg", "desc":"登录"},
             {"view": "登录成功.jpg", "desc":"登录成功"},        
         ];
     var signup = [{"view": "注册.jpg", "desc":"描述显示在这里"}];
