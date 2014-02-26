@@ -8,13 +8,22 @@ body {
 /* line 12, ../sass/screen.scss */
 body a {
   color: #fff;
+  text-decoration: underline;
 }
-/* line 14, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
+body a:link {
+  color: #fff;
+}
+/* line 19, ../sass/screen.scss */
 body a:hover {
   color: blue;
 }
+/* line 22, ../sass/screen.scss */
+body a:active {
+  color: green;
+}
 
-/* line 19, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 .container {
   *zoom: 1;
   max-width: 107em;
@@ -38,25 +47,25 @@ body a:hover {
   display: table;
   clear: both;
 }
-/* line 25, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .container .list ul {
   float: left;
   list-style: none;
 }
-/* line 28, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .container .list ul li {
   float: left;
   padding: 0.5rem 1rem;
 }
-/* line 32, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .container .list ul li a {
   text-decoration: none;
 }
-/* line 41, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .container #img {
   text-align: center;
 }
-/* line 46, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .container #upui {
   display: none;
 }
