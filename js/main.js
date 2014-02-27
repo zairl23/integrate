@@ -2,6 +2,9 @@ $(document).ready(function(){
     var domain = 'http://meow-avatars.u.qiniudn.com/';
     var domainLocal = 'images/';
     var size  = '-ui.jpg';
+    var timestamp = Date.parse(new Date());
+    //var timestamp = (new Date()).valueOf(); 
+
     var sizeLocal = 'images/8meow.png';
     var login = [
             {"view": "登录.jpg", "desc":"登录"},
@@ -45,7 +48,7 @@ $(document).ready(function(){
     function pathToUrl(path) {
         var imgs = "";
         for(var i=0; i < path.length; i++) {
-            var imgs = imgs + "<img title=" + path[i].desc + " src=" + domain + path[i].view + size + " />";         
+            var imgs = imgs + "<img title=" + path[i].desc + " src=" + domain + path[i].view + size + "?=" + timestamp + "/>";         
         }
         return imgs;
     }
