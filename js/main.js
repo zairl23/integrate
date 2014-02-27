@@ -6,6 +6,9 @@ $(document).ready(function(){
     //var timestamp = (new Date()).valueOf(); 
 
     var sizeLocal = 'images/8meow.png';
+    var map = [
+        {"view":"流程图.jpg", "desc":"APP map"}
+    ];
     var login = [
             {"view": "登录.jpg", "desc":"登录"},
             {"view": "登录成功.jpg", "desc":"登录成功"},        
@@ -42,7 +45,7 @@ $(document).ready(function(){
     var qa = [{"view":"设置-Q&A.jpg","desc":"用邮件的形式发送问题到官方邮箱，下方列出常见问题列表，从服务端获取"}];
     var invite = [{"view":"设置-好友邀请.jpg","desc":"如果好友号码在电话薄，直接进入电话簿选择"}];
     var account = [{"view":"设置-帐号安全.jpg","desc":"描述显示在这里"}];
-    var uis = ['login', 'signup', 'home', 'relationship', 'homeUser','setting', 'video', 'changePasswd','forgetPasswd', 'changePhonenumber', 'qa', 'invite', 'account'];
+    var uis = ['map', 'login', 'signup', 'home', 'relationship', 'homeUser','setting', 'video', 'changePasswd','forgetPasswd', 'changePhonenumber', 'qa', 'invite', 'account'];
 
     // convert path to img's src    
     function pathToUrl(path) {
