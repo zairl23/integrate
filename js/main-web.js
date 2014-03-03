@@ -24,7 +24,7 @@ $(document).ready(function(){
         $('#description').html('');
         $('ul#a').show();
         $(this).hide();
-        $('#description-1').html("<img id='products' src='http://meow-avatars.u.qiniudn.com/products.png-ui.jpg' />");
+        $('#description-1').html("<img id='products' src='http://meow-avatars.u.qiniudn.com/products-big.jpg' />");
     });
     
     $('#description-1').click(function(){
