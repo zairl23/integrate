@@ -1,13 +1,21 @@
 $(document).ready(function(){
     //  jump   
     $('#logo').addClass("floating");
-
-        $('#logo').click(function(){
-            $(this).css('left', '0');
-            $('#team').show();
-            $('#team').addClass("slideLeft");
-            $('#cover').show();
-        });
+        
+    $('#logo-active').click(function(){
+       $(this).hide();
+       $('#logo').show();
+       $('#team').show();
+       $('#team').addClass("slideLeft");
+       $('#cover').show();
+    });    
+    
+    $('#logo').click(function(){
+        $(this).css('left', '0');
+        $('#team').show();
+        $('#team').addClass("slideLeft");
+        $('#cover').show();
+    });
     
     $('#cover').click(function() {
         //$('#logo').removeClass();

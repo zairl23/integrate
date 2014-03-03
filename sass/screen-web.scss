@@ -55,9 +55,14 @@ $width: 214px;
     //margin-right:auto;
     //background:url("../images/cloud.png") no-repeat center;
 }   
-  
+
+#logo-active {
+    cursor: pointer;
+}
 #logo {
+    display:none;
     position:absolute;
+    left:0;
     top:0;
     bottom:0;
     margin:auto;
