@@ -47,14 +47,6 @@
 }
 
 /* line 71, ../sass/screen-web.scss */
-#handleClick {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-/* line 78, ../sass/screen-web.scss */
 #cover {
   display: none;
   position: absolute;
@@ -67,27 +59,27 @@
   cursor: pointer;
   margin-right: 0;
 }
-/* line 90, ../sass/screen-web.scss */
+/* line 83, ../sass/screen-web.scss */
 #cover:hover {
   opacity: 0.2;
 }
 
-/* line 95, ../sass/screen-web.scss */
+/* line 88, ../sass/screen-web.scss */
 #team {
   display: none;
   position: relative;
   left: 8rem;
   margin: 0;
 }
-/* line 100, ../sass/screen-web.scss */
+/* line 93, ../sass/screen-web.scss */
 #team ul {
   margin-left: 0;
 }
-/* line 103, ../sass/screen-web.scss */
+/* line 96, ../sass/screen-web.scss */
 #team ul#a {
   float: left;
 }
-/* line 105, ../sass/screen-web.scss */
+/* line 98, ../sass/screen-web.scss */
 #team ul#a li {
   cursor: pointer;
   float: left;
@@ -184,7 +176,7 @@
   opacity: 1;
 }
 
-/* line 116, ../sass/screen-web.scss */
+/* line 109, ../sass/screen-web.scss */
 .close img {
   cursor: url(http://fujifilm-x.com/x-pro1/common/images/btn_close.png), auto;
 }

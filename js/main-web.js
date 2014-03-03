@@ -28,6 +28,8 @@ $(document).ready(function(){
     });
     
     $('#description-1').click(function(){
+        // top the page
+        $(document).scrollTop(0);        
         $(this).html('');
         $('#logo-active').show();
         //$('#logo').show();
