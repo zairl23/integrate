@@ -1,0 +1,183 @@
+/* -------------------------------------------------------------------------*/
+/* Layout */
+/* line 9, ../sass/screen-web.scss */
+.container {
+  *zoom: 1;
+  max-width: 107em;
+  _width: 107em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box;
+}
+/* line 38, ../../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 47, ../sass/screen-web.scss */
+#welcome {
+  text-align: center;
+  min-height: 1000px;
+}
+
+/* line 59, ../sass/screen-web.scss */
+#logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* line 66, ../sass/screen-web.scss */
+#handleClick {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* line 73, ../sass/screen-web.scss */
+#cover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 8rem;
+  background-color: #333;
+  opacity: 0;
+  cursor: pointer;
+  margin-right: 0;
+}
+/* line 85, ../sass/screen-web.scss */
+#cover:hover {
+  opacity: 0.2;
+}
+
+/* line 90, ../sass/screen-web.scss */
+#team {
+  display: none;
+  position: relative;
+  left: 8rem;
+  margin: 0;
+}
+/* line 95, ../sass/screen-web.scss */
+#team ul {
+  margin-left: 0;
+}
+/* line 98, ../sass/screen-web.scss */
+#team ul#a {
+  float: left;
+}
+/* line 100, ../sass/screen-web.scss */
+#team ul#a li {
+  cursor: pointer;
+  float: left;
+  list-style: none;
+}
+/* line 30, ../sass/screen-web.scss */
+#team ul#a li.hui-0 {
+  position: absolute;
+  left: 0px;
+  top: 0;
+}
+/* line 36, ../sass/screen-web.scss */
+#team ul#a li.cai-0 {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  opacity: 0;
+  transition: opacity .7s;
+}
+/* line 22, ../sass/screen-web.scss */
+#team ul#a li.cai-0:hover {
+  opacity: 1;
+}
+/* line 30, ../sass/screen-web.scss */
+#team ul#a li.hui-1 {
+  position: absolute;
+  left: 214px;
+  top: 0;
+}
+/* line 36, ../sass/screen-web.scss */
+#team ul#a li.cai-1 {
+  position: absolute;
+  left: 214px;
+  top: 0;
+  opacity: 0;
+  transition: opacity .7s;
+}
+/* line 22, ../sass/screen-web.scss */
+#team ul#a li.cai-1:hover {
+  opacity: 1;
+}
+/* line 30, ../sass/screen-web.scss */
+#team ul#a li.hui-2 {
+  position: absolute;
+  left: 428px;
+  top: 0;
+}
+/* line 36, ../sass/screen-web.scss */
+#team ul#a li.cai-2 {
+  position: absolute;
+  left: 428px;
+  top: 0;
+  opacity: 0;
+  transition: opacity .7s;
+}
+/* line 22, ../sass/screen-web.scss */
+#team ul#a li.cai-2:hover {
+  opacity: 1;
+}
+/* line 30, ../sass/screen-web.scss */
+#team ul#a li.hui-3 {
+  position: absolute;
+  left: 642px;
+  top: 0;
+}
+/* line 36, ../sass/screen-web.scss */
+#team ul#a li.cai-3 {
+  position: absolute;
+  left: 642px;
+  top: 0;
+  opacity: 0;
+  transition: opacity .7s;
+}
+/* line 22, ../sass/screen-web.scss */
+#team ul#a li.cai-3:hover {
+  opacity: 1;
+}
+/* line 30, ../sass/screen-web.scss */
+#team ul#a li.hui-4 {
+  position: absolute;
+  left: 856px;
+  top: 0;
+}
+/* line 36, ../sass/screen-web.scss */
+#team ul#a li.cai-4 {
+  position: absolute;
+  left: 856px;
+  top: 0;
+  opacity: 0;
+  transition: opacity .7s;
+}
+/* line 22, ../sass/screen-web.scss */
+#team ul#a li.cai-4:hover {
+  opacity: 1;
+}
+
+/* line 111, ../sass/screen-web.scss */
+.close img {
+  cursor: url(http://fujifilm-x.com/x-pro1/common/images/btn_close.png), auto;
+}

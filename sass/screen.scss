@@ -22,6 +22,9 @@ body {
         &:active {
             color: green;                    
         }
+	&.selected:visited {
+	    color: green;
+	}
 
         
         

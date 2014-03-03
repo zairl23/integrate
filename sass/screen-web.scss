@@ -1,0 +1,116 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "base";
+
+/* -------------------------------------------------------------------------*/
+/* Layout */
+
+.container {
+  @include container;
+  @include susy-grid-background;
+  
+}
+
+// image width        
+$width: 214px;
+
+// switch gray to color
+@mixin hover() {
+      opacity: 0;
+      transition: opacity .7s;
+      &:hover {
+        opacity: 1;
+      }
+}
+
+// each same no repeat
+@mixin each() {
+  @for $i from 0 to 5 {
+    li.hui-#{$i} {
+      position:absolute;
+      left:$width * $i;
+      top:0;
+     }
+    
+    li.cai-#{$i} {
+      position:absolute;
+      left:214px * $i;//width of image
+      top:0;
+    
+      // hover
+      @include hover();      
+    }
+  }
+}
+
+#welcome {
+    text-align:center;
+    min-height: 1000px;
+    //display:block;
+    //width:200px;
+    //height:200px;
+    //text-align:center;
+    //margin-left:auto;
+    //margin-right:auto;
+    //background:url("../images/cloud.png") no-repeat center;
+}   
+  
+#logo {
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+
+#handleClick {
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+
+#cover {
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 8rem;
+    background-color: #333;
+    opacity:0;
+    cursor: pointer;
+    margin-right:0;
+    
+    &:hover {
+        opacity:0.2;
+    }
+}
+    
+#team {
+    display: none;
+    position: relative;
+    left:8rem;
+    margin:0;
+    ul {
+        margin-left: 0;
+    }
+    ul#a {
+      float: left;
+      li {
+        cursor: pointer;
+        float: left;
+        list-style: none;
+      }
+      @include each();
+      
+    }
+}
+
+.close {
+    img {
+     //set url auto
+     cursor:url(http://fujifilm-x.com/x-pro1/common/images/btn_close.png), auto;
+
+   }
+}
