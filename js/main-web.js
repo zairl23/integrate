@@ -29,9 +29,10 @@ $(document).ready(function(){
     
     $('#description-1').click(function(){
         $(this).html('');
-        $('#logo').show();
-        $('#team').show();
-        $('#cover').show();
+        $('#logo-active').show();
+        //$('#logo').show();
+        //$('#team').show();
+        //$('#cover').show();
         $('#description').html('');
     });
     
