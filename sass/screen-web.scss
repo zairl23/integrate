@@ -100,9 +100,12 @@ $width: 214px;
     }
 }
 
+#description-1 {
+    display: none;
+}
+
 .close {
-    img {
-     //set url auto
+    img {     //set url auto
      cursor:url(http://fujifilm-x.com/x-pro1/common/images/btn_close.png), auto;
 
    }

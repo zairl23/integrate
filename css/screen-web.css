@@ -176,7 +176,12 @@
   opacity: 1;
 }
 
-/* line 104, ../sass/screen-web.scss */
+/* line 103, ../sass/screen-web.scss */
+#description-1 {
+  display: none;
+}
+
+/* line 108, ../sass/screen-web.scss */
 .close img {
   cursor: url(http://fujifilm-x.com/x-pro1/common/images/btn_close.png), auto;
 }

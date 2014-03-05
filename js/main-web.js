@@ -23,17 +23,18 @@ $(document).ready(function(){
         $('#team').hide();
         $('#description').html('');
         $(this).hide();
+        $('#description-1').show();
         $('#description-1').addClass("pullDown");
-        $('#description-1').html("<img id='products' src='http://meow-avatars.u.qiniudn.com/products-big.jpg' />");
+        //$('#description-1').html("<img id='products' src='http://meow-avatars.u.qiniudn.com/products-big.jpg' />");
         
     });
     
     $('#description-1').click(function(){
         // top the page
-        $(document).scrollTop(0);
         $(this).removeClass('pullDown');   
-        $(this).html('');
-        $('#logo-active').show();
+        $(this).hide();
+        $(document).scrollTop(0);
+        $('#logo-active').show('slow');
         $('#description').html('');
     });
     
