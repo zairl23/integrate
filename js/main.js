@@ -73,6 +73,6 @@ $(document).ready(function(){
 
    //handle video-ios
    $('#video-ios').click(function(){
-	$('#img').html("<video controls autoplay src='http://jesec.qiniudn.com/8meow%E5%BD%95%E5%83%8F.mp4'></video>");
+	$('#img').html("<video controls autoplay src='http://meow-videos.u.qiniudn.com/8meow%E5%BD%95%E5%83%8F.mp4-ios.mp4'></video>");
    });
 });
