@@ -47,18 +47,12 @@ $width: 214px;
 #welcome {
     text-align:center;
     min-height: 1000px;
-    //display:block;
-    //width:200px;
-    //height:200px;
-    //text-align:center;
-    //margin-left:auto;
-    //margin-right:auto;
-    //background:url("../images/cloud.png") no-repeat center;
 }   
 
 #logo-active {
     cursor: pointer;
 }
+
 #logo {
     display:none;
     position:absolute;
@@ -66,6 +60,7 @@ $width: 214px;
     top:0;
     bottom:0;
     margin:auto;
+    //z-index:100;
 }
 
 #cover {

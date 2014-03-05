@@ -33,14 +33,14 @@ $(document).ready(function(){
         ];
     var changePasswd = [{"view":"设置-修改密码.jpg", "desc":"点击发送验证码按钮，发送成功，按钮切换为验证码输入框"}];
     var forgetPasswd = [
-            {"view":"忘记密码.jpg", "desc":"描述显示在这里"},
-            {"view":"忘记密码-验证码.jpg", "desc":"some"},
-            {"view":"忘记密码-修改密码.jpg", "desc":"some"}
+            {"view":"忘记密码.jpg", "desc":"不需要验证，直接更改密码"},
+            {"view":"忘记密码-验证码.jpg", "desc":"不需要验证，直接更改密码"},
+            {"view":"忘记密码-修改密码.jpg", "desc":"不需要验证，直接更改密码"}
             
         ];
     var changePhonenumber = [
-            {"view":"设置-修改手机号.jpg","desc":"描述显示在这里"},
-            {"view":"设置-修改手机号-验证码.jpg", "desc":"描述显示在这里"}
+            {"view":"设置-修改手机号.jpg","desc":"暂时不实现这个功能"},
+            {"view":"设置-修改手机号-验证码.jpg", "desc":"暂时不实现此功能"}
         ];
     var qa = [{"view":"设置-Q&A.jpg","desc":"用邮件的形式发送问题到官方邮箱，下方列出常见问题列表，从服务端获取"}];
     var invite = [{"view":"设置-好友邀请.jpg","desc":"如果好友号码在电话薄，直接进入电话簿选择"}];
@@ -70,4 +70,9 @@ $(document).ready(function(){
             show(eval(event.data.el));
         });
     }
+
+   //handle video-ios
+   $('#video-ios').click(function(){
+	$('#img').html("<video controls autoplay src='http://jesec.qiniudn.com/8meow%E5%BD%95%E5%83%8F.mp4'></video>");
+   });
 });
