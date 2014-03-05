@@ -24,17 +24,17 @@ $(document).ready(function(){
         $('#description').html('');
         $(this).hide();
         $('#description-1').show();
-        $('#description-1').addClass("pullDown");
+        $('#description-1').addClass("pullDownNey");
         //$('#description-1').html("<img id='products' src='http://meow-avatars.u.qiniudn.com/products-big.jpg' />");
         
     });
     
     $('#description-1').click(function(){
         // top the page
-        $(this).removeClass('pullDown');   
+        $(this).removeClass('pullDownNey');   
         $(this).hide();
         $(document).scrollTop(0);
-        $('#logo-active').show('slow');
+        $('#logo-active').show();
         $('#description').html('');
     });
     
