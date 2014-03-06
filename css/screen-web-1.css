@@ -1,6 +1,6 @@
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 9, ../sass/screen-web.scss */
+/* line 9, ../sass/screen-web-1.scss */
 .container {
   *zoom: 1;
   max-width: 107em;
@@ -25,18 +25,18 @@
   clear: both;
 }
 
-/* line 47, ../sass/screen-web.scss */
+/* line 47, ../sass/screen-web-1.scss */
 #welcome {
   text-align: center;
   min-height: 1000px;
 }
 
-/* line 52, ../sass/screen-web.scss */
+/* line 52, ../sass/screen-web-1.scss */
 #logo-active {
   cursor: pointer;
 }
 
-/* line 56, ../sass/screen-web.scss */
+/* line 56, ../sass/screen-web-1.scss */
 #logo {
   display: none;
   position: absolute;
@@ -46,11 +46,11 @@
   margin: auto;
 }
 
-/* line 66, ../sass/screen-web.scss */
+/* line 65, ../sass/screen-web-1.scss */
 #cover {
   display: none;
   position: absolute;
-  top: 20;
+  top: 0;
   left: 0;
   height: 100%;
   width: 8rem;
@@ -59,39 +59,39 @@
   cursor: pointer;
   margin-right: 0;
 }
-/* line 78, ../sass/screen-web.scss */
+/* line 77, ../sass/screen-web-1.scss */
 #cover:hover {
   opacity: 0.2;
 }
 
-/* line 83, ../sass/screen-web.scss */
+/* line 82, ../sass/screen-web-1.scss */
 #team {
   display: none;
   position: relative;
   left: 8rem;
   margin: 0;
 }
-/* line 88, ../sass/screen-web.scss */
+/* line 87, ../sass/screen-web-1.scss */
 #team ul {
   margin-left: 0;
 }
-/* line 91, ../sass/screen-web.scss */
+/* line 90, ../sass/screen-web-1.scss */
 #team ul#a {
   float: left;
 }
-/* line 93, ../sass/screen-web.scss */
+/* line 92, ../sass/screen-web-1.scss */
 #team ul#a li {
   cursor: pointer;
   float: left;
   list-style: none;
 }
-/* line 30, ../sass/screen-web.scss */
+/* line 30, ../sass/screen-web-1.scss */
 #team ul#a li.hui-0 {
   position: absolute;
   left: 0px;
   top: 0;
 }
-/* line 36, ../sass/screen-web.scss */
+/* line 36, ../sass/screen-web-1.scss */
 #team ul#a li.cai-0 {
   position: absolute;
   left: 0px;
@@ -99,17 +99,17 @@
   opacity: 0;
   transition: opacity .7s;
 }
-/* line 22, ../sass/screen-web.scss */
+/* line 22, ../sass/screen-web-1.scss */
 #team ul#a li.cai-0:hover {
   opacity: 1;
 }
-/* line 30, ../sass/screen-web.scss */
+/* line 30, ../sass/screen-web-1.scss */
 #team ul#a li.hui-1 {
   position: absolute;
   left: 214px;
   top: 0;
 }
-/* line 36, ../sass/screen-web.scss */
+/* line 36, ../sass/screen-web-1.scss */
 #team ul#a li.cai-1 {
   position: absolute;
   left: 214px;
@@ -117,17 +117,17 @@
   opacity: 0;
   transition: opacity .7s;
 }
-/* line 22, ../sass/screen-web.scss */
+/* line 22, ../sass/screen-web-1.scss */
 #team ul#a li.cai-1:hover {
   opacity: 1;
 }
-/* line 30, ../sass/screen-web.scss */
+/* line 30, ../sass/screen-web-1.scss */
 #team ul#a li.hui-2 {
   position: absolute;
   left: 428px;
   top: 0;
 }
-/* line 36, ../sass/screen-web.scss */
+/* line 36, ../sass/screen-web-1.scss */
 #team ul#a li.cai-2 {
   position: absolute;
   left: 428px;
@@ -135,17 +135,17 @@
   opacity: 0;
   transition: opacity .7s;
 }
-/* line 22, ../sass/screen-web.scss */
+/* line 22, ../sass/screen-web-1.scss */
 #team ul#a li.cai-2:hover {
   opacity: 1;
 }
-/* line 30, ../sass/screen-web.scss */
+/* line 30, ../sass/screen-web-1.scss */
 #team ul#a li.hui-3 {
   position: absolute;
   left: 642px;
   top: 0;
 }
-/* line 36, ../sass/screen-web.scss */
+/* line 36, ../sass/screen-web-1.scss */
 #team ul#a li.cai-3 {
   position: absolute;
   left: 642px;
@@ -153,17 +153,17 @@
   opacity: 0;
   transition: opacity .7s;
 }
-/* line 22, ../sass/screen-web.scss */
+/* line 22, ../sass/screen-web-1.scss */
 #team ul#a li.cai-3:hover {
   opacity: 1;
 }
-/* line 30, ../sass/screen-web.scss */
+/* line 30, ../sass/screen-web-1.scss */
 #team ul#a li.hui-4 {
   position: absolute;
   left: 856px;
   top: 0;
 }
-/* line 36, ../sass/screen-web.scss */
+/* line 36, ../sass/screen-web-1.scss */
 #team ul#a li.cai-4 {
   position: absolute;
   left: 856px;
@@ -171,52 +171,17 @@
   opacity: 0;
   transition: opacity .7s;
 }
-/* line 22, ../sass/screen-web.scss */
+/* line 22, ../sass/screen-web-1.scss */
 #team ul#a li.cai-4:hover {
   opacity: 1;
 }
 
-/* line 103, ../sass/screen-web.scss */
+/* line 102, ../sass/screen-web-1.scss */
 #description-1 {
   display: none;
 }
 
-/* line 108, ../sass/screen-web.scss */
-#words-list {
-  text-align: center;
-  display: none;
-}
-
-/* line 113, ../sass/screen-web.scss */
-.words {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-/* line 122, ../sass/screen-web.scss */
-#app {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-/* line 131, ../sass/screen-web.scss */
-#app-1 {
-  margin: 0 auto;
-  display: block;
-}
-
-/* line 136, ../sass/screen-web.scss */
-#app-2 {
-  margin: 0 auto;
-  display: block;
-}
-
-/* line 142, ../sass/screen-web.scss */
+/* line 107, ../sass/screen-web-1.scss */
 .close img {
   cursor: url(http://fujifilm-x.com/x-pro1/common/images/btn_close.png), auto;
 }

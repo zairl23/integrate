@@ -1,5 +1,4 @@
-$(document).ready(function(){
-    //  jump   
+$(document).ready(function(){ 
     $('#logo').addClass("floating");
     $('#logo-active').addClass('pulse');  
     $('#logo-active').click(function(){
@@ -18,19 +17,26 @@ $(document).ready(function(){
     });
     
     $('#cover').click(function() {
-        //$('#logo').removeClass();
         $('#logo').hide();
         $('#team').hide();
         $('#description').html('');
         $(this).hide();
+        //$('#app').show();
+        // web-1
         $('#description-1').show();
-        $('#description-1').addClass("pullDownNey");
-        //$('#description-1').html("<img id='products' src='http://meow-avatars.u.qiniudn.com/products-big.jpg' />");
-        
+        //$('#words-junery').show();
+        //$('#words-wedding').show();
+        //$('#words-school').show();
+        //$('#words-life').show();
+        //$('#words-gongyi').show();
+        //$('#words-huwai').show();
+        $('#words-list').show();
+        //$('#words-school').addClass('floatingNey');
+        //$('#description-1').addClass("pullDownNey");
+        //$('#description-1').html("<img src='./images/1.jpg' />");
     });
     
     $('#description-1').click(function(){
-        // top the page
         $(this).removeClass('pullDownNey');   
         $(this).hide();
         $(document).scrollTop(0);
@@ -44,6 +50,14 @@ $(document).ready(function(){
         $('#team').show();
         $('#team').addClass('slideLeftNey');
       
+    });
+
+    $('#words-list').click(function(){
+        $(this).hide();
+        $('#description-1').hide();
+        $(document).scrollTop(0);
+        $('#logo-active').show();
+        $('#description').html('');
     });
 	
     // handle click for each image
@@ -80,5 +94,77 @@ $(document).ready(function(){
       $('#description').addClass("stretchRight");
       $('#description').html("<img src='http://meow-avatars.u.qiniudn.com/qiang.jpg-ui.jpg'  />");
     });
+
+    $(window).scroll(function() {
+			$('#words-huwai').each(function(){
+			var imagePos = $(this).offset().top + 1027;
+			
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+400) {
+                    $(this).addClass("slideRight");
+                  
+				} else {
+                    $(this).removeClass("slideRight");                
+                }
+			});
+
+			$('#words-gongyi').each(function(){
+			var imagePos = $(this).offset().top + 1477;
+			
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+400) {
+					$(this).addClass("slideLeft");
+				} else {
+                    $(this).removeClass("slideLeft");                
+                }
+			});
+
+			$('#words-art').each(function(){
+			var imagePos = $(this).offset().top + 2224;
+			
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+400) {
+					$(this).addClass("slideLeft");
+				} else {
+                    $(this).removeClass("slideLeft");                
+                }
+			});		
+
+			$('#words-junery').each(function(){
+			var imagePos = $(this).offset().top + 2819;
+			
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+400) {
+					$(this).addClass("stretchRight");
+				} else {
+                    $(this).removeClass("stretchRight");                
+                }
+			});	
+
+            $('#words-life').each(function(){
+			var imagePos = $(this).offset().top + 3433;
+			
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+400) {
+					$(this).addClass("stretchLeft");
+				} else {
+                    $(this).removeClass("stretchLeft");                
+                }
+			});		
+
+			$('#words-school').each(function(){
+			var imagePos = $(this).offset().top + 4031;
+			
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+400) {
+					$(this).addClass("pullUp");
+				} else {
+                    $(this).removeClass("pullUp");                
+                }
+			});					
+								
+
+		});
+
 
 });
