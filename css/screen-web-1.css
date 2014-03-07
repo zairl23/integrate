@@ -1,11 +1,11 @@
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 12, ../sass/screen-web-1.scss */
+/* line 9, ../sass/screen-web-1.scss */
 body {
   tesxt-align: center;
 }
 
-/* line 15, ../sass/screen-web-1.scss */
+/* line 12, ../sass/screen-web-1.scss */
 .container {
   *zoom: 1;
   max-width: 62.4em;
@@ -14,6 +14,12 @@ body {
   padding-right: 0em;
   margin-left: auto;
   margin-right: auto;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(8.33333%, rgba(100, 100, 225, 0.25)), color-stop(8.33333%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(100, 100, 225, 0.25)), color-stop(16.66667%, rgba(100, 100, 225, 0.25)), color-stop(16.66667%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(100, 100, 225, 0.25)), color-stop(25.0%, rgba(100, 100, 225, 0.25)), color-stop(25.0%, rgba(0, 0, 0, 0)), color-stop(25.0%, rgba(0, 0, 0, 0)), color-stop(25.0%, rgba(100, 100, 225, 0.25)), color-stop(33.33333%, rgba(100, 100, 225, 0.25)), color-stop(33.33333%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(100, 100, 225, 0.25)), color-stop(41.66667%, rgba(100, 100, 225, 0.25)), color-stop(41.66667%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(100, 100, 225, 0.25)), color-stop(50.0%, rgba(100, 100, 225, 0.25)), color-stop(50.0%, rgba(0, 0, 0, 0)), color-stop(50.0%, rgba(0, 0, 0, 0)), color-stop(50.0%, rgba(100, 100, 225, 0.25)), color-stop(58.33333%, rgba(100, 100, 225, 0.25)), color-stop(58.33333%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(100, 100, 225, 0.25)), color-stop(66.66667%, rgba(100, 100, 225, 0.25)), color-stop(66.66667%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(100, 100, 225, 0.25)), color-stop(75.0%, rgba(100, 100, 225, 0.25)), color-stop(75.0%, rgba(0, 0, 0, 0)), color-stop(75.0%, rgba(0, 0, 0, 0)), color-stop(75.0%, rgba(100, 100, 225, 0.25)), color-stop(83.33333%, rgba(100, 100, 225, 0.25)), color-stop(83.33333%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(100, 100, 225, 0.25)), color-stop(91.66667%, rgba(100, 100, 225, 0.25)), color-stop(91.66667%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 8.33333%, rgba(0, 0, 0, 0) 8.33333%, rgba(0, 0, 0, 0) 8.33333%, rgba(100, 100, 225, 0.25) 8.33333%, rgba(100, 100, 225, 0.25) 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(100, 100, 225, 0.25) 16.66667%, rgba(100, 100, 225, 0.25) 25.0%, rgba(0, 0, 0, 0) 25.0%, rgba(0, 0, 0, 0) 25.0%, rgba(100, 100, 225, 0.25) 25.0%, rgba(100, 100, 225, 0.25) 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(100, 100, 225, 0.25) 33.33333%, rgba(100, 100, 225, 0.25) 41.66667%, rgba(0, 0, 0, 0) 41.66667%, rgba(0, 0, 0, 0) 41.66667%, rgba(100, 100, 225, 0.25) 41.66667%, rgba(100, 100, 225, 0.25) 50.0%, rgba(0, 0, 0, 0) 50.0%, rgba(0, 0, 0, 0) 50.0%, rgba(100, 100, 225, 0.25) 50.0%, rgba(100, 100, 225, 0.25) 58.33333%, rgba(0, 0, 0, 0) 58.33333%, rgba(0, 0, 0, 0) 58.33333%, rgba(100, 100, 225, 0.25) 58.33333%, rgba(100, 100, 225, 0.25) 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(100, 100, 225, 0.25) 66.66667%, rgba(100, 100, 225, 0.25) 75.0%, rgba(0, 0, 0, 0) 75.0%, rgba(0, 0, 0, 0) 75.0%, rgba(100, 100, 225, 0.25) 75.0%, rgba(100, 100, 225, 0.25) 83.33333%, rgba(0, 0, 0, 0) 83.33333%, rgba(0, 0, 0, 0) 83.33333%, rgba(100, 100, 225, 0.25) 83.33333%, rgba(100, 100, 225, 0.25) 91.66667%, rgba(0, 0, 0, 0) 91.66667%, rgba(0, 0, 0, 0) 91.66667%, rgba(100, 100, 225, 0.25) 91.66667%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 8.33333%, rgba(0, 0, 0, 0) 8.33333%, rgba(0, 0, 0, 0) 8.33333%, rgba(100, 100, 225, 0.25) 8.33333%, rgba(100, 100, 225, 0.25) 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(100, 100, 225, 0.25) 16.66667%, rgba(100, 100, 225, 0.25) 25.0%, rgba(0, 0, 0, 0) 25.0%, rgba(0, 0, 0, 0) 25.0%, rgba(100, 100, 225, 0.25) 25.0%, rgba(100, 100, 225, 0.25) 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(100, 100, 225, 0.25) 33.33333%, rgba(100, 100, 225, 0.25) 41.66667%, rgba(0, 0, 0, 0) 41.66667%, rgba(0, 0, 0, 0) 41.66667%, rgba(100, 100, 225, 0.25) 41.66667%, rgba(100, 100, 225, 0.25) 50.0%, rgba(0, 0, 0, 0) 50.0%, rgba(0, 0, 0, 0) 50.0%, rgba(100, 100, 225, 0.25) 50.0%, rgba(100, 100, 225, 0.25) 58.33333%, rgba(0, 0, 0, 0) 58.33333%, rgba(0, 0, 0, 0) 58.33333%, rgba(100, 100, 225, 0.25) 58.33333%, rgba(100, 100, 225, 0.25) 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(100, 100, 225, 0.25) 66.66667%, rgba(100, 100, 225, 0.25) 75.0%, rgba(0, 0, 0, 0) 75.0%, rgba(0, 0, 0, 0) 75.0%, rgba(100, 100, 225, 0.25) 75.0%, rgba(100, 100, 225, 0.25) 83.33333%, rgba(0, 0, 0, 0) 83.33333%, rgba(0, 0, 0, 0) 83.33333%, rgba(100, 100, 225, 0.25) 83.33333%, rgba(100, 100, 225, 0.25) 91.66667%, rgba(0, 0, 0, 0) 91.66667%, rgba(0, 0, 0, 0) 91.66667%, rgba(100, 100, 225, 0.25) 91.66667%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 8.33333%, rgba(0, 0, 0, 0) 8.33333%, rgba(0, 0, 0, 0) 8.33333%, rgba(100, 100, 225, 0.25) 8.33333%, rgba(100, 100, 225, 0.25) 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(100, 100, 225, 0.25) 16.66667%, rgba(100, 100, 225, 0.25) 25.0%, rgba(0, 0, 0, 0) 25.0%, rgba(0, 0, 0, 0) 25.0%, rgba(100, 100, 225, 0.25) 25.0%, rgba(100, 100, 225, 0.25) 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(100, 100, 225, 0.25) 33.33333%, rgba(100, 100, 225, 0.25) 41.66667%, rgba(0, 0, 0, 0) 41.66667%, rgba(0, 0, 0, 0) 41.66667%, rgba(100, 100, 225, 0.25) 41.66667%, rgba(100, 100, 225, 0.25) 50.0%, rgba(0, 0, 0, 0) 50.0%, rgba(0, 0, 0, 0) 50.0%, rgba(100, 100, 225, 0.25) 50.0%, rgba(100, 100, 225, 0.25) 58.33333%, rgba(0, 0, 0, 0) 58.33333%, rgba(0, 0, 0, 0) 58.33333%, rgba(100, 100, 225, 0.25) 58.33333%, rgba(100, 100, 225, 0.25) 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(100, 100, 225, 0.25) 66.66667%, rgba(100, 100, 225, 0.25) 75.0%, rgba(0, 0, 0, 0) 75.0%, rgba(0, 0, 0, 0) 75.0%, rgba(100, 100, 225, 0.25) 75.0%, rgba(100, 100, 225, 0.25) 83.33333%, rgba(0, 0, 0, 0) 83.33333%, rgba(0, 0, 0, 0) 83.33333%, rgba(100, 100, 225, 0.25) 83.33333%, rgba(100, 100, 225, 0.25) 91.66667%, rgba(0, 0, 0, 0) 91.66667%, rgba(0, 0, 0, 0) 91.66667%, rgba(100, 100, 225, 0.25) 91.66667%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 8.33333%, rgba(0, 0, 0, 0) 8.33333%, rgba(0, 0, 0, 0) 8.33333%, rgba(100, 100, 225, 0.25) 8.33333%, rgba(100, 100, 225, 0.25) 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(100, 100, 225, 0.25) 16.66667%, rgba(100, 100, 225, 0.25) 25.0%, rgba(0, 0, 0, 0) 25.0%, rgba(0, 0, 0, 0) 25.0%, rgba(100, 100, 225, 0.25) 25.0%, rgba(100, 100, 225, 0.25) 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(100, 100, 225, 0.25) 33.33333%, rgba(100, 100, 225, 0.25) 41.66667%, rgba(0, 0, 0, 0) 41.66667%, rgba(0, 0, 0, 0) 41.66667%, rgba(100, 100, 225, 0.25) 41.66667%, rgba(100, 100, 225, 0.25) 50.0%, rgba(0, 0, 0, 0) 50.0%, rgba(0, 0, 0, 0) 50.0%, rgba(100, 100, 225, 0.25) 50.0%, rgba(100, 100, 225, 0.25) 58.33333%, rgba(0, 0, 0, 0) 58.33333%, rgba(0, 0, 0, 0) 58.33333%, rgba(100, 100, 225, 0.25) 58.33333%, rgba(100, 100, 225, 0.25) 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(100, 100, 225, 0.25) 66.66667%, rgba(100, 100, 225, 0.25) 75.0%, rgba(0, 0, 0, 0) 75.0%, rgba(0, 0, 0, 0) 75.0%, rgba(100, 100, 225, 0.25) 75.0%, rgba(100, 100, 225, 0.25) 83.33333%, rgba(0, 0, 0, 0) 83.33333%, rgba(0, 0, 0, 0) 83.33333%, rgba(100, 100, 225, 0.25) 83.33333%, rgba(100, 100, 225, 0.25) 91.66667%, rgba(0, 0, 0, 0) 91.66667%, rgba(0, 0, 0, 0) 91.66667%, rgba(100, 100, 225, 0.25) 91.66667%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
   -webkit-background-origin: content;
   -moz-background-origin: content;
   -ms-background-origin: content-box;
@@ -30,29 +36,26 @@ body {
   clear: both;
 }
 
-/* line 54, ../sass/screen-web-1.scss */
-#welcome {
-  width: 100%;
-  text-align: center;
-}
-
-/* line 62, ../sass/screen-web-1.scss */
+/* line 23, ../sass/screen-web-1.scss */
 #logo-active {
   text-align: center;
   display: block;
   position: absolute;
   height: 100%;
+  bottom: 0;
+  margin: auto;
   cursor: pointer;
 }
-/* line 74, ../sass/screen-web-1.scss */
+/* line 35, ../sass/screen-web-1.scss */
 #logo-active img {
   position: relative;
+  left: 0;
   top: 0;
   bottom: 0;
   margin: auto;
 }
 
-/* line 84, ../sass/screen-web-1.scss */
+/* line 45, ../sass/screen-web-1.scss */
 #logo {
   display: none;
   position: absolute;
@@ -62,7 +65,7 @@ body {
   margin: auto;
 }
 
-/* line 94, ../sass/screen-web-1.scss */
+/* line 55, ../sass/screen-web-1.scss */
 #cover {
   display: none;
   position: absolute;
@@ -74,144 +77,373 @@ body {
   opacity: 0;
   cursor: pointer;
 }
-/* line 106, ../sass/screen-web-1.scss */
+/* line 67, ../sass/screen-web-1.scss */
 #cover:hover {
   opacity: 0.2;
 }
 
-/* line 111, ../sass/screen-web-1.scss */
+/* line 73, ../sass/screen-web-1.scss */
+#welcome {
+  position: relative;
+  top: 0;
+  left: 50%;
+  width: 1000px;
+  margin-left: -500px;
+  text-align: center;
+}
+
+/* line 85, ../sass/screen-web-1.scss */
 #team {
+  text-align: center;
   display: none;
   position: absolute;
-  left: 50%;
-  width: 100%;
-  margin-left: -50%;
+  top: 0px;
+  left: 500px;
+  width: 1000px;
+  margin-left: -500px;
 }
-/* line 129, ../sass/screen-web-1.scss */
-#team ul {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-/* line 135, ../sass/screen-web-1.scss */
+/* line 110, ../sass/screen-web-1.scss */
 #team ul#a {
   float: left;
+  padding-left: 500px;
 }
-/* line 138, ../sass/screen-web-1.scss */
+/* line 113, ../sass/screen-web-1.scss */
 #team ul#a li {
   cursor: pointer;
   float: left;
   list-style: none;
 }
-/* line 37, ../sass/screen-web-1.scss */
-#team ul#a li.hui-0 {
-  position: absolute;
-  left: 0px;
-  top: 0;
+@media screen and (max-device-height: 800px) {
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-0 {
+    position: absolute;
+    left: 0px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-0 {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-0:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-1 {
+    position: absolute;
+    left: 182px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-1 {
+    position: absolute;
+    left: 182px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-1:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-2 {
+    position: absolute;
+    left: 364px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-2 {
+    position: absolute;
+    left: 364px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-2:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-3 {
+    position: absolute;
+    left: 546px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-3 {
+    position: absolute;
+    left: 546px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-3:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-4 {
+    position: absolute;
+    left: 728px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-4 {
+    position: absolute;
+    left: 728px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-4:hover {
+    opacity: 1;
+  }
 }
-/* line 43, ../sass/screen-web-1.scss */
-#team ul#a li.cai-0 {
-  position: absolute;
-  left: 0px;
-  top: 0;
-  opacity: 0;
-  transition: opacity .7s;
+@media screen and (min-device-height: 900px) and (max-device-height: 960px) {
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-0 {
+    position: absolute;
+    left: 0px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-0 {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-0:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-1 {
+    position: absolute;
+    left: 182px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-1 {
+    position: absolute;
+    left: 182px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-1:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-2 {
+    position: absolute;
+    left: 364px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-2 {
+    position: absolute;
+    left: 364px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-2:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-3 {
+    position: absolute;
+    left: 546px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-3 {
+    position: absolute;
+    left: 546px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-3:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-4 {
+    position: absolute;
+    left: 728px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-4 {
+    position: absolute;
+    left: 728px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-4:hover {
+    opacity: 1;
+  }
 }
-/* line 29, ../sass/screen-web-1.scss */
-#team ul#a li.cai-0:hover {
-  opacity: 1;
-}
-/* line 37, ../sass/screen-web-1.scss */
-#team ul#a li.hui-1 {
-  position: absolute;
-  left: 179.2px;
-  top: 0;
-}
-/* line 43, ../sass/screen-web-1.scss */
-#team ul#a li.cai-1 {
-  position: absolute;
-  left: 179.2px;
-  top: 0;
-  opacity: 0;
-  transition: opacity .7s;
-}
-/* line 29, ../sass/screen-web-1.scss */
-#team ul#a li.cai-1:hover {
-  opacity: 1;
-}
-/* line 37, ../sass/screen-web-1.scss */
-#team ul#a li.hui-2 {
-  position: absolute;
-  left: 358.4px;
-  top: 0;
-}
-/* line 43, ../sass/screen-web-1.scss */
-#team ul#a li.cai-2 {
-  position: absolute;
-  left: 358.4px;
-  top: 0;
-  opacity: 0;
-  transition: opacity .7s;
-}
-/* line 29, ../sass/screen-web-1.scss */
-#team ul#a li.cai-2:hover {
-  opacity: 1;
-}
-/* line 37, ../sass/screen-web-1.scss */
-#team ul#a li.hui-3 {
-  position: absolute;
-  left: 537.6px;
-  top: 0;
-}
-/* line 43, ../sass/screen-web-1.scss */
-#team ul#a li.cai-3 {
-  position: absolute;
-  left: 537.6px;
-  top: 0;
-  opacity: 0;
-  transition: opacity .7s;
-}
-/* line 29, ../sass/screen-web-1.scss */
-#team ul#a li.cai-3:hover {
-  opacity: 1;
-}
-/* line 37, ../sass/screen-web-1.scss */
-#team ul#a li.hui-4 {
-  position: absolute;
-  left: 716.8px;
-  top: 0;
-}
-/* line 43, ../sass/screen-web-1.scss */
-#team ul#a li.cai-4 {
-  position: absolute;
-  left: 716.8px;
-  top: 0;
-  opacity: 0;
-  transition: opacity .7s;
-}
-/* line 29, ../sass/screen-web-1.scss */
-#team ul#a li.cai-4:hover {
-  opacity: 1;
+@media screen and (min-device-height: 1024px) {
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-0 {
+    position: absolute;
+    left: 0px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-0 {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-0:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-1 {
+    position: absolute;
+    left: 200px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-1 {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-1:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-2 {
+    position: absolute;
+    left: 400px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-2 {
+    position: absolute;
+    left: 400px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-2:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-3 {
+    position: absolute;
+    left: 600px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-3 {
+    position: absolute;
+    left: 600px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-3:hover {
+    opacity: 1;
+  }
+  /* line 32, ../sass/_base.scss */
+  #team ul#a li.hui-4 {
+    position: absolute;
+    left: 800px;
+    top: 0;
+  }
+  /* line 38, ../sass/_base.scss */
+  #team ul#a li.cai-4 {
+    position: absolute;
+    left: 800px;
+    top: 0;
+    opacity: 0;
+    transition: opacity .7s;
+  }
+  /* line 24, ../sass/_base.scss */
+  #team ul#a li.cai-4:hover {
+    opacity: 1;
+  }
 }
 
-/* line 149, ../sass/screen-web-1.scss */
+/* line 124, ../sass/screen-web-1.scss */
 #description-1 {
   display: none;
 }
 
-/* line 153, ../sass/screen-web-1.scss */
+/* line 128, ../sass/screen-web-1.scss */
 .img {
-  max-width: 179.2px;
+  max-width: 182px;
   max-height: auto;
 }
+@media screen and (max-device-height: 800px) {
+  /* line 128, ../sass/screen-web-1.scss */
+  .img {
+    max-width: 182px;
+  }
+}
+@media screen and (min-device-height: 900px) and (max-device-height: 960px) {
+  /* line 128, ../sass/screen-web-1.scss */
+  .img {
+    max-width: 182px;
+  }
+}
+@media screen and (min-device-height: 1024px) {
+  /* line 128, ../sass/screen-web-1.scss */
+  .img {
+    max-width: 200px;
+  }
+}
 
-/* line 158, ../sass/screen-web-1.scss */
+/* line 134, ../sass/screen-web-1.scss */
 .imgb {
   max-width: 1104px;
   max-height: auto;
 }
+@media screen and (max-device-height: 800px) {
+  /* line 134, ../sass/screen-web-1.scss */
+  .imgb {
+    max-width: 1104px;
+  }
+}
+@media screen and (min-device-height: 900px) and (max-device-height: 960px) {
+  /* line 134, ../sass/screen-web-1.scss */
+  .imgb {
+    max-width: 1104px;
+  }
+}
+@media screen and (min-device-height: 1024px) {
+  /* line 134, ../sass/screen-web-1.scss */
+  .imgb {
+    max-width: 1280px;
+  }
+}
 
-/* line 164, ../sass/screen-web-1.scss */
+/* line 141, ../sass/screen-web-1.scss */
 .close img {
   cursor: url(http://fujifilm-x.com/x-pro1/common/images/btn_close.png), auto;
 }
