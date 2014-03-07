@@ -13,9 +13,9 @@ $grid-padding   : $gutter-width;
 //$imgswidth: 182px;
 //$imgbwidth:1104px;
 $show-grid-backgrounds : true;
-$rwdSmall: "screen and (max-device-height : 800px)";
-$rwdMiddle: "screen and (min-device-height : 900px) and (max-device-height : 960px)";
-$rwdLarge: "screen and (min-device-height: 1024px)";
+$rwdSmall: "screen and (max-height : 800px)";
+$rwdMiddle: "screen and (min-height : 900px) and (max-height : 960px)";
+$rwdLarge: "screen and (min-height: 1024px)";
 
 // switch gray to color
 @mixin hover() {
