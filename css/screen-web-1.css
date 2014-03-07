@@ -227,13 +227,13 @@ body {
   /* line 32, ../sass/_base.scss */
   #team ul#a li.hui-1 {
     position: absolute;
-    left: 182px;
+    left: 214px;
     top: 0;
   }
   /* line 38, ../sass/_base.scss */
   #team ul#a li.cai-1 {
     position: absolute;
-    left: 182px;
+    left: 214px;
     top: 0;
     opacity: 0;
     transition: opacity .7s;
@@ -245,13 +245,13 @@ body {
   /* line 32, ../sass/_base.scss */
   #team ul#a li.hui-2 {
     position: absolute;
-    left: 364px;
+    left: 428px;
     top: 0;
   }
   /* line 38, ../sass/_base.scss */
   #team ul#a li.cai-2 {
     position: absolute;
-    left: 364px;
+    left: 428px;
     top: 0;
     opacity: 0;
     transition: opacity .7s;
@@ -263,13 +263,13 @@ body {
   /* line 32, ../sass/_base.scss */
   #team ul#a li.hui-3 {
     position: absolute;
-    left: 546px;
+    left: 642px;
     top: 0;
   }
   /* line 38, ../sass/_base.scss */
   #team ul#a li.cai-3 {
     position: absolute;
-    left: 546px;
+    left: 642px;
     top: 0;
     opacity: 0;
     transition: opacity .7s;
@@ -281,13 +281,13 @@ body {
   /* line 32, ../sass/_base.scss */
   #team ul#a li.hui-4 {
     position: absolute;
-    left: 728px;
+    left: 856px;
     top: 0;
   }
   /* line 38, ../sass/_base.scss */
   #team ul#a li.cai-4 {
     position: absolute;
-    left: 728px;
+    left: 856px;
     top: 0;
     opacity: 0;
     transition: opacity .7s;
@@ -409,7 +409,7 @@ body {
 @media screen and (min-height: 900px) and (max-height: 960px) {
   /* line 128, ../sass/screen-web-1.scss */
   .img {
-    max-width: 182px;
+    max-width: 214px;
   }
 }
 @media screen and (min-height: 1024px) {

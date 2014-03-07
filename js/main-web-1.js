@@ -7,7 +7,7 @@ $(document).ready(function(){
        $('#logo').show();
        $('#team').show();
        $('#team').addClass("slideLeftNey");
-       $('#cover').show();
+       //$('#cover').show();
     });    
     
     $('#logo').click(function(){
@@ -42,18 +42,22 @@ $(document).ready(function(){
         $(this).html("");
         $(this).removeClass('stretchRight');
         $('#team').show();
+        $('#logo').show();
         $('#team').addClass('slideLeftNey');
       
     });
 	
     // handle click for each image
     $('#a li.cai-0').click(function(){
+      $('#logo').hide();
+      
       $('#team').hide();
       $('#team').removeClass();
       $('#description').addClass("stretchRight");
       $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/peng.jpg-ui.jpg' />");
     });
     $('#a li.cai-1').click(function(){
+      $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
       $('#description').addClass("stretchRight");
@@ -61,6 +65,7 @@ $(document).ready(function(){
     });
 
     $('#a li.cai-2').click(function(){
+      $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
       $('#description').addClass("stretchRight");
@@ -68,6 +73,7 @@ $(document).ready(function(){
     });
 
     $('#a li.cai-3').click(function(){
+      $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
       $('#description').addClass("stretchRight");
@@ -75,6 +81,7 @@ $(document).ready(function(){
     });
 
     $('#a li.cai-4').click(function(){
+      $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
       $('#description').addClass("stretchRight");

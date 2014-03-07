@@ -55,7 +55,7 @@ $rwdLarge: "screen and (min-height: 1024px)";
 
     @media #{$rwdMiddle} {
         //$imgbwidth:1104px;//bili * width <960
-        @include each(182px);
+        @include each(214px);
      }
     @media #{$rwdLarge} {
         //$imgbwidth:1104px;// bili * width 
@@ -73,7 +73,7 @@ $rwdLarge: "screen and (min-height: 1024px)";
 
 
     @media #{$rwdMiddle} {
-        max-width: 182px;
+        max-width: 214px;
         //$imgbwidth:1104px;//bili * width <960
     }
     @media #{$rwdLarge} {
