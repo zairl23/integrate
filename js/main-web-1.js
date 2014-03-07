@@ -2,6 +2,8 @@ $(document).ready(function(){
     // get height
     var bili = 0.2675;
     var bilib = 0.625;
+    var offset = $('#welcome').offset().left -12;
+    alert(offset);
     var img = 132;// 108+24
     var height = $(document).height() - 16;
     //alert(height);
@@ -9,9 +11,9 @@ $(document).ready(function(){
     //var width = bili * height;
     
     //var widthb = height / bilib;
-    var width = (widthTotal-img) / 5;
+    var width = (widthTotal-offset) / 5;
     var height = width / bili;
-    var widthb = (widthTotal-img);
+    var widthb = (widthTotal-offset);
     var heightb = widthb * bilib;
     //alert(height)
     for (var i =0; i < 5; i++) {
@@ -20,6 +22,7 @@ $(document).ready(function(){
     }
     //$('#a > li > img').css({'min-height': height, 'width':width, 'max-height': height});        
     $('#a > li > img').css({'min-width': width, 'height':height, 'max-width': width});
+    //$('#welcome').offset().left;
    // $('#description').children().css({'min-height':height, 'max-height':height, 'max-width':'auto'});
     //$('#logo > img').css({'min-width': width, 'max-height':'auto', 'max-width': width});
     //$('#team').css('left', width);
@@ -32,6 +35,7 @@ $(document).ready(function(){
        $('#logo').show();
        $('#team').show();
        $('#team').addClass("slideLeftNey");
+       
       // $('#cover').show();
     });    
     
