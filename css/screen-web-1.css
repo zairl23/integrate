@@ -412,12 +412,14 @@ body {
 @media screen and (min-device-height: 900px) and (max-device-height: 960px) {
   /* line 129, ../sass/screen-web-1.scss */
   .img {
+    min-width: 240.75px;
     max-width: 240.75px;
   }
 }
 @media screen and (min-device-height: 1024px) {
   /* line 129, ../sass/screen-web-1.scss */
   .img {
+    min-width: 240.75px;
     max-width: 240.75px;
   }
 }
