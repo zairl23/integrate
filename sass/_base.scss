@@ -91,7 +91,7 @@ $rwdLarge: "screen and (min-device-height: 1024px)";
      }
 
     @media #{$rwdMiddle} {
-        max-width: 1104px;
+        max-width: 1280px;
         //$imgbwidth:1104px;//bili * width <960
     }
     @media #{$rwdLarge} {

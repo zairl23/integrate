@@ -433,7 +433,7 @@ body {
 @media screen and (min-device-height: 900px) and (max-device-height: 960px) {
   /* line 134, ../sass/screen-web-1.scss */
   .imgb {
-    max-width: 1104px;
+    max-width: 1280px;
   }
 }
 @media screen and (min-device-height: 1024px) {
