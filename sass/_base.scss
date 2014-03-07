@@ -55,7 +55,7 @@ $rwdLarge: "screen and (min-device-height: 1024px)";
 
     @media #{$rwdMiddle} {
         //$imgbwidth:1104px;//bili * width <960
-        @include each(220px);
+        @include each(240.75px);
      }
     @media #{$rwdLarge} {
         //$imgbwidth:1104px;// bili * width 
@@ -67,17 +67,18 @@ $rwdLarge: "screen and (min-device-height: 1024px)";
 
 @mixin rwdimgsWidth() {
      @media #{$rwdSmall} {
-        max-width: 182px;
+        min-width: 225px;
+        max-width: 225px;
         //$imgbwidth:1104px;//bili * width <960
      }
 
 
     @media #{$rwdMiddle} {
-        max-width: 220px;
+        max-width: 240.75px;
         //$imgbwidth:1104px;//bili * width <960
     }
     @media #{$rwdLarge} {
-        max-width: 250px;
+        max-width: 240.75px;
         //$imgbwidth:1104px;// bili * width 
     }
 }
@@ -85,16 +86,19 @@ $rwdLarge: "screen and (min-device-height: 1024px)";
 @mixin rwdimgbWidth() {
 
      @media #{$rwdSmall} {
+        min-width: 1104px;
         max-width: 1104px;
         //$imgbwidth:1104px;//bili * width <960
         //@include each(182);
      }
 
     @media #{$rwdMiddle} {
-        max-width: 1280px;
+        min-width: 1440px;
+        max-width: 1440px;
         //$imgbwidth:1104px;//bili * width <960
     }
     @media #{$rwdLarge} {
+        min-width: 1380px;
         max-width: 1380px;
         //$imgbwidth:1104px;// bili * width 
     }

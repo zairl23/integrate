@@ -228,13 +228,13 @@ body {
   /* line 32, ../sass/_base.scss */
   #team ul#a li.hui-1 {
     position: absolute;
-    left: 220px;
+    left: 240.75px;
     top: 0;
   }
   /* line 38, ../sass/_base.scss */
   #team ul#a li.cai-1 {
     position: absolute;
-    left: 220px;
+    left: 240.75px;
     top: 0;
     opacity: 0;
     transition: opacity .7s;
@@ -246,13 +246,13 @@ body {
   /* line 32, ../sass/_base.scss */
   #team ul#a li.hui-2 {
     position: absolute;
-    left: 440px;
+    left: 481.5px;
     top: 0;
   }
   /* line 38, ../sass/_base.scss */
   #team ul#a li.cai-2 {
     position: absolute;
-    left: 440px;
+    left: 481.5px;
     top: 0;
     opacity: 0;
     transition: opacity .7s;
@@ -264,13 +264,13 @@ body {
   /* line 32, ../sass/_base.scss */
   #team ul#a li.hui-3 {
     position: absolute;
-    left: 660px;
+    left: 722.25px;
     top: 0;
   }
   /* line 38, ../sass/_base.scss */
   #team ul#a li.cai-3 {
     position: absolute;
-    left: 660px;
+    left: 722.25px;
     top: 0;
     opacity: 0;
     transition: opacity .7s;
@@ -282,13 +282,13 @@ body {
   /* line 32, ../sass/_base.scss */
   #team ul#a li.hui-4 {
     position: absolute;
-    left: 880px;
+    left: 963px;
     top: 0;
   }
   /* line 38, ../sass/_base.scss */
   #team ul#a li.cai-4 {
     position: absolute;
-    left: 880px;
+    left: 963px;
     top: 0;
     opacity: 0;
     transition: opacity .7s;
@@ -398,53 +398,59 @@ body {
 
 /* line 129, ../sass/screen-web-1.scss */
 .img {
-  max-width: 182px;
+  min-width: 225px;
+  max-width: 225px;
   max-height: auto;
 }
 @media screen and (max-device-height: 800px) {
   /* line 129, ../sass/screen-web-1.scss */
   .img {
-    max-width: 182px;
+    min-width: 225px;
+    max-width: 225px;
   }
 }
 @media screen and (min-device-height: 900px) and (max-device-height: 960px) {
   /* line 129, ../sass/screen-web-1.scss */
   .img {
-    max-width: 220px;
+    max-width: 240.75px;
   }
 }
 @media screen and (min-device-height: 1024px) {
   /* line 129, ../sass/screen-web-1.scss */
   .img {
-    max-width: 250px;
+    max-width: 240.75px;
   }
 }
 
-/* line 135, ../sass/screen-web-1.scss */
+/* line 136, ../sass/screen-web-1.scss */
 .imgb {
+  min-width: 1104px;
   max-width: 1104px;
   max-height: auto;
 }
 @media screen and (max-device-height: 800px) {
-  /* line 135, ../sass/screen-web-1.scss */
+  /* line 136, ../sass/screen-web-1.scss */
   .imgb {
+    min-width: 1104px;
     max-width: 1104px;
   }
 }
 @media screen and (min-device-height: 900px) and (max-device-height: 960px) {
-  /* line 135, ../sass/screen-web-1.scss */
+  /* line 136, ../sass/screen-web-1.scss */
   .imgb {
-    max-width: 1280px;
+    min-width: 1440px;
+    max-width: 1440px;
   }
 }
 @media screen and (min-device-height: 1024px) {
-  /* line 135, ../sass/screen-web-1.scss */
+  /* line 136, ../sass/screen-web-1.scss */
   .imgb {
+    min-width: 1380px;
     max-width: 1380px;
   }
 }
 
-/* line 142, ../sass/screen-web-1.scss */
+/* line 144, ../sass/screen-web-1.scss */
 .close img {
   cursor: url(http://fujifilm-x.com/x-pro1/common/images/btn_close.png), auto;
 }

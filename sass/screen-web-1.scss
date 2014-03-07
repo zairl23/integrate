@@ -127,12 +127,14 @@ body {
 }
 
 .img {
-    max-width:182px;
+    min-width:225px;
+    max-width:225px;
     max-height:auto;
     @include rwdimgsWidth();
 }
 
 .imgb {
+    min-width:1104px;
     max-width:1104px;
     max-height:auto;
     @include rwdimgbWidth();
