@@ -410,13 +410,13 @@ body {
 @media screen and (min-device-height: 900px) and (max-device-height: 960px) {
   /* line 129, ../sass/screen-web-1.scss */
   .img {
-    max-width: 214px;
+    max-width: 220px;
   }
 }
 @media screen and (min-device-height: 1024px) {
   /* line 129, ../sass/screen-web-1.scss */
   .img {
-    max-width: 200px;
+    max-width: 250px;
   }
 }
 
@@ -440,7 +440,7 @@ body {
 @media screen and (min-device-height: 1024px) {
   /* line 135, ../sass/screen-web-1.scss */
   .imgb {
-    max-width: 1280px;
+    max-width: 1380px;
   }
 }
 
