@@ -1,4 +1,15 @@
 $(document).ready(function(){
+    // get height
+    var bili = 0.2675;
+    var height = $(document).height() - 16;
+    var width = bili * height;
+    //alert(height)
+    for (var i =0; i < 5; i++) {
+        $('#a > li.hui-' + i).css({'position':'absolute', 'left': width * i, 'top':0});
+        $('#a > li.cai-' + i).css({'position':'absolute', 'left': width * i, 'top':0});
+    }
+    $('#a > li > img').css({'min-height': height, 'width':width, 'max-height': height});        
+    
     //  jump   
     $('#logo').addClass("pullDown");
     $('#logo-active').addClass('pulse');  
