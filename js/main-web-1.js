@@ -51,34 +51,34 @@ $(document).ready(function(){
       $('#team').hide();
       $('#team').removeClass();
       $('#description').addClass("stretchRight");
-      $('#description').html("<img src='http://meow-avatars.u.qiniudn.com/peng.jpg-ui.jpg'  />");
+      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/peng.jpg-ui.jpg' />");
     });
     $('#a li.cai-1').click(function(){
       $('#team').hide();
       $('#team').removeClass();
       $('#description').addClass("stretchRight");
-      $('#description').html("<img src='http://meow-avatars.u.qiniudn.com/jie.jpg-ui.jpg'  />");
+      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/jie.jpg-ui.jpg'  />");
     });
 
     $('#a li.cai-2').click(function(){
       $('#team').hide();
       $('#team').removeClass();
       $('#description').addClass("stretchRight");
-      $('#description').html("<img src='http://meow-avatars.u.qiniudn.com/ney.jpg-ui.jpg'  />");
+      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/ney.jpg-ui.jpg'  />");
     });
 
     $('#a li.cai-3').click(function(){
       $('#team').hide();
       $('#team').removeClass();
       $('#description').addClass("stretchRight");
-      $('#description').html("<img src='http://meow-avatars.u.qiniudn.com/bei.jpg-ui.jpg'  />");
+      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/bei.jpg-ui.jpg'  />");
     });
 
     $('#a li.cai-4').click(function(){
       $('#team').hide();
       $('#team').removeClass();
       $('#description').addClass("stretchRight");
-      $('#description').html("<img src='http://meow-avatars.u.qiniudn.com/qiang.jpg-ui.jpg'  />");
+      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/qiang.jpg-ui.jpg'  />");
     });
 
 });

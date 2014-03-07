@@ -6,10 +6,13 @@
 /* -------------------------------------------------------------------------*/
 /* Layout */
 
+body {
+    overflow-y:hidden;
+}
 .container {
   @include container;
   @include susy-grid-background;
-  
+  overflow-y: hidden;
 }
 
 // image width        
@@ -60,7 +63,7 @@ $width: 214px;
     top:0;
     bottom:0;
     margin:auto;
-    //z-index:100;
+    z-index:100;
 }
 
 #cover {
