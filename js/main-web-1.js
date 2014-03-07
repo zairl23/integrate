@@ -1,20 +1,23 @@
 $(document).ready(function(){
     //  jump   
-    $('#logo').addClass("floating");
+    $('#logo').addClass("pullDown");
     $('#logo-active').addClass('pulse');  
     $('#logo-active').click(function(){
        $(this).hide();
        $('#logo').show();
        $('#team').show();
        $('#team').addClass("slideLeftNey");
-       //$('#cover').show();
+       $('#cover').show();
     });    
     
     $('#logo').click(function(){
-        $(this).css('left', '0');
-        $('#team').show();
-        $('#team').addClass("slideLeftNey");
-        $('#cover').show();
+       // $(this).css('left', '0');
+        $(this).hide();
+        $('#team').hide();
+        //$('#team').addClass("slideLeftNey");
+        //$('#cover').show();
+        $('#description-1').show();
+        $('#description-1').addClass("pullDownNey");
     });
     
     $('#cover').click(function() {
@@ -40,7 +43,7 @@ $(document).ready(function(){
     
     $('#description').click(function(){
         $(this).html("");
-        $(this).removeClass('stretchRight');
+        $(this).removeClass('stretchRightNey');
         $('#team').show();
         $('#logo').show();
         $('#team').addClass('slideLeftNey');
@@ -53,14 +56,14 @@ $(document).ready(function(){
       
       $('#team').hide();
       $('#team').removeClass();
-      $('#description').addClass("stretchRight");
+      $('#description').addClass("stretchRightNey");
       $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/peng.jpg-ui.jpg' />");
     });
     $('#a li.cai-1').click(function(){
       $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
-      $('#description').addClass("stretchRight");
+      $('#description').addClass("stretchRightNey");
       $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/jie.jpg-ui.jpg'  />");
     });
 
@@ -68,7 +71,7 @@ $(document).ready(function(){
       $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
-      $('#description').addClass("stretchRight");
+      $('#description').addClass("stretchRightNey");
       $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/ney.jpg-ui.jpg'  />");
     });
 
@@ -76,7 +79,7 @@ $(document).ready(function(){
       $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
-      $('#description').addClass("stretchRight");
+      $('#description').addClass("stretchRightNey");
       $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/bei.jpg-ui.jpg'  />");
     });
 
@@ -84,7 +87,7 @@ $(document).ready(function(){
       $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
-      $('#description').addClass("stretchRight");
+      $('#description').addClass("stretchRightNey");
       $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/qiang.jpg-ui.jpg'  />");
     });
 

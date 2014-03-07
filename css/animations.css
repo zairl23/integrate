@@ -1306,3 +1306,73 @@ floating neychang
 	}			
 }
 
+
+/*
+==============================================
+stretchRight neychang
+==============================================
+*/
+
+.stretchRightNey {
+	animation-name: stretchRightNey;
+	-webkit-animation-name: stretchRightNey;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-webkit-transform-origin: 0% 0%; 		
+}
+
+@keyframes stretchRightNey {
+	0% {
+		transform: scaleX(0.3);
+	}
+	40% {
+		transform: scaleX(1.02);
+	}
+	60% {
+		transform: scaleX(0.98);
+	}
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(0.98);
+	}				
+	80% {
+		transform: scaleX(1.00);
+	}
+	100% {
+		transform: scaleX(1);
+	}							
+}
+
+@-webkit-keyframes stretchRightNey {
+	0% {
+		-webkit-transform: scaleX(0.3);
+	}
+	40% {
+		-webkit-transform: scaleX(1.02);
+	}
+	60% {
+		-webkit-transform: scaleX(0.98);
+	}
+	80% {
+		-webkit-transform: scaleX(1.01);
+	}
+	100% {
+		-webkit-transform: scaleX(0.98);
+	}				
+	80% {
+		-webkit-transform: scaleX(1.00);
+	}
+	100% {
+		-webkit-transform: scaleX(1);
+	}		
+}
+

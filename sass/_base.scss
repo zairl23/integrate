@@ -55,11 +55,11 @@ $rwdLarge: "screen and (min-height: 1024px)";
 
     @media #{$rwdMiddle} {
         //$imgbwidth:1104px;//bili * width <960
-        @include each(214px);
+        @include each(220px);
      }
     @media #{$rwdLarge} {
         //$imgbwidth:1104px;// bili * width 
-        @include each(200px);
+        @include each(250px);
     }
 }
 
