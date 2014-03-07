@@ -5,10 +5,16 @@
 @import "susy";
 /* -------------------------------------------------------------------------*/
 /* Layout */
-
 body {
-    tesxt-align:center;
+    margin:0;
+    padding:0;
 }
+ul, ol, dd {
+    list-style-type:none;
+    margin-left:0;
+    padding-left:0;
+}
+
 .container {
   @include container;
   @include susy-grid-background;
@@ -41,56 +47,38 @@ body {
         margin: auto;
     }
 }
-
-#logo {
-    display:none;
-    position:absolute;
-    left:0;
-    top:0;
-    bottom:0;
-    margin:auto;
-    cursor: pointer;
-    //@include span-columns(3,6); 
-}
-
-#cover {
-    display: none;
-    position: absolute;
-    top:0;
-    left:0;
-    height: 100%;
-    width: 8rem;
-    background-color: #333;
-    opacity:0;
-    cursor: pointer;
-    //margin-right:0;
-    
-    &:hover {
-        opacity:0.2;
-    }
-}
   
 
 #welcome {
-    position:relative;
-    top:0;
-    left:50%;
-    width: 1000px;
-    margin-left:-500px;
-    //height:100%;
+   // position:relative;
     text-align:center;
-    //min-height: 1000px;
+    margin:0;
+    padding:0;
    
-}   
+}  
+
+#logo {
+    display:none;
+    cursor: pointer;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    margin: auto 0;
+}
+
   
 #team {
-    text-align:center;
+    
+    //text-align:center;
     display: none;
-    position: absolute;
+    margin:0;
+      padding:0;
+    //position: absolute;
     top:0px;
-    left: 500px;
-    width: 1000px;
-    margin-left:-500px;
+    left:0px;
+    //width: 1000px;
+    //margin-left:-500px;
     //left:4rem;
     //height:100%;
     //@include span-columns(9,12); 
@@ -102,30 +90,33 @@ body {
     //overflow-y:hidden;
     
     //margin:0;
-    ul {
-        //margin-top:4rem;
-        //margin-left: auto;
-        //margin-right: auto;
-        //width:100%;
-    }
     ul#a {
-      float: left;
-      padding-left:500px;
+      //float: left;
+      //padding-left:500px;
+      position:relative;
+      margin:0;
+      padding:0;
+      -webkit-padding-start: 0px;
+      -webkit-margin-before: 0em;
+      -webkit-margin-after: 0em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+      //left:0;
       li {
         cursor: pointer;
-        float: left;
+        //float: left;
         list-style: none;
         //overflow:hidden;
       }
       //@include rwdEach();
         //@include each();
-     li.cai {
-        opacity: 0;
-        transition: opacity .7s;
-        &:hover {
-            opacity: 1;
+        li.cai {
+            opacity: 0;
+            transition: opacity .7s;
+            &:hover {
+                opacity: 1;
+            }
         }
-    }
       
     }
 }
@@ -142,9 +133,9 @@ body {
 }
 
 .imgb {
-    min-width:1104px;
-    max-width:1104px;
-    max-height:auto;
+    //min-width:1104px;
+    //max-width:1104px;
+    //max-height:auto;
     //@include rwdimgbWidth();
 }
 
