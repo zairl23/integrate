@@ -3,7 +3,7 @@ $(document).ready(function(){
     var bili = 0.2675;
     var bilib = 0.625;
     var offset = $('#welcome').offset().left -12;
-    alert(offset);
+    //alert(offset);
     var img = 132;// 108+24
     var height = $(document).height() - 16;
     //alert(height);
