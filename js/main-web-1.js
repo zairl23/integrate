@@ -28,8 +28,7 @@ $(document).ready(function(){
     $('#logo-active').click(function(){
        $(this).hide();
        $('#logo').show();
-       $('#team').show();
-       $('#team').addClass("slideLeftNey");
+       $('#team').addClass("slideLeftNey").show();
        
       // $('#cover').show();
     });    
