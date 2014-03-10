@@ -2,82 +2,33 @@
 /* Layout */
 /* line 8, ../sass/screen-web-1.scss */
 body {
+  text-aligin: center;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-y: hidden !important;
 }
 
-/* line 13, ../sass/screen-web-1.scss */
+/* line 14, ../sass/screen-web-1.scss */
 ul, ol, dd {
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
 }
 
-/* line 19, ../sass/screen-web-1.scss */
-.container {
-  *zoom: 1;
-  max-width: 62.4em;
-  _width: 62.4em;
-  padding-left: 0em;
-  padding-right: 0em;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-background-origin: content;
-  -moz-background-origin: content;
-  -ms-background-origin: content-box;
-  -o-background-origin: content-box;
-  background-origin: content-box;
-  -webkit-background-clip: content-box;
-  -moz-background-clip: content-box;
-  background-clip: content-box;
-}
-/* line 38, ../../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* line 30, ../sass/screen-web-1.scss */
-#logo-active {
-  text-align: center;
-  display: block;
-  position: absolute;
-  height: 100%;
-  bottom: 0;
-  margin: auto;
+/* line 31, ../sass/screen-web-1.scss */
+#loading {
   cursor: pointer;
-}
-/* line 42, ../sass/screen-web-1.scss */
-#logo-active img {
-  position: relative;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  text-align: center;
 }
 
-/* line 53, ../sass/screen-web-1.scss */
+/* line 41, ../sass/screen-web-1.scss */
 #welcome {
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
-/* line 61, ../sass/screen-web-1.scss */
-#logo {
-  display: none;
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  margin: auto 0;
-  padding: 0;
-}
-
-/* line 73, ../sass/screen-web-1.scss */
+/* line 49, ../sass/screen-web-1.scss */
 #team {
   display: none;
   margin: 0;
@@ -85,9 +36,8 @@ ul, ol, dd {
   position: relative;
   top: 0px;
 }
-/* line 96, ../sass/screen-web-1.scss */
+/* line 72, ../sass/screen-web-1.scss */
 #team ul#a {
-  left: 108px;
   margin: 0;
   padding: 0;
   -webkit-padding-start: 0px;
@@ -96,36 +46,46 @@ ul, ol, dd {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
 }
-/* line 110, ../sass/screen-web-1.scss */
+/* line 86, ../sass/screen-web-1.scss */
 #team ul#a li {
   cursor: pointer;
   list-style: none;
 }
-/* line 118, ../sass/screen-web-1.scss */
+/* line 94, ../sass/screen-web-1.scss */
 #team ul#a li.cai {
   opacity: 0;
   transition: opacity .7s;
 }
-/* line 121, ../sass/screen-web-1.scss */
+/* line 97, ../sass/screen-web-1.scss */
 #team ul#a li.cai:hover {
   opacity: 1;
 }
 
-/* line 129, ../sass/screen-web-1.scss */
+/* line 105, ../sass/screen-web-1.scss */
+#description {
+  position: absolute;
+  overflow-y: hidden;
+}
+
+/* line 110, ../sass/screen-web-1.scss */
 #description-1 {
   display: none;
 }
 
-/* line 148, ../sass/screen-web-1.scss */
+/* line 129, ../sass/screen-web-1.scss */
 .close img {
   cursor: url(http://fujifilm-x.com/x-pro1/common/images/btn_close.png), auto;
 }
-/* line 153, ../sass/screen-web-1.scss */
+/* line 134, ../sass/screen-web-1.scss */
+.close .scroll {
+  overflow: visible;
+}
+/* line 138, ../sass/screen-web-1.scss */
 .close li.cai {
   opacity: 0;
   transition: opacity .7s;
 }
-/* line 156, ../sass/screen-web-1.scss */
+/* line 141, ../sass/screen-web-1.scss */
 .close li.cai:hover {
   opacity: 1;
 }
