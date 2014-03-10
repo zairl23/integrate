@@ -2,8 +2,8 @@ $(document).ready(function(){
     // get height
     $('#logo-active').show().addClass('pulse');
     $('#logo-active').vhAlign();
-    var bili = 0.2675;
-    var bilib = 0.625;
+    var bili = 240/700;
+    var bilib = 800/1440;
     var height = $(window).height();
     var widthTotal = $(window).width();
     var width = (widthTotal) / 6;
@@ -66,20 +66,22 @@ $(document).ready(function(){
       $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
-      $('#description').addClass("stretchRightNey");
-      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/peng.jpg-ui.jpg'  />");
+      //$('#description').addClass("stretchRightNey");
+      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/wang/pengb.png-ui.jpg'  />");
       $('#description').css('top', topoffsetb); 
       $('#description > img.imgb').css({'min-width':widthb, 'height':heightb, 'max-width':widthb});
+      $('#description').addClass("stretchRightNey");
     });
 
     $('#a li.cai-2').click(function(){
       $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
-      $('#description').addClass("stretchRightNey");
-      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/jie.jpg-ui.jpg'  />");
+     // $('#description').addClass("stretchRightNey");
+      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/wang/jieb.png-ui.jpg'  />");
       $('#description').css('top', topoffsetb); 
       $('#description > img.imgb').css({'min-width':widthb, 'height':heightb, 'max-width':widthb});
+        
     });
 
     $('#a li.cai-3').click(function(){
@@ -87,7 +89,7 @@ $(document).ready(function(){
       $('#team').hide();
       $('#team').removeClass();
       $('#description').addClass("stretchRightNey");
-      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/ney.jpg-ui.jpg'  />");
+      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/wang/neyb.png-ui.jpg'  />");
       $('#description').css({'top':topoffsetb}); 
       $('#description > img.imgb').css({'min-width':widthb, 'height':heightb, 'max-width':widthb});
     });
@@ -96,20 +98,22 @@ $(document).ready(function(){
       $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
-      $('#description').addClass("stretchRightNey");
-      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/bei.jpg-ui.jpg'  />");
+      //$('#description').addClass("stretchRightNey");
+      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/wang/beib.png-ui.jpg'  />");
       $('#description').css('top', topoffsetb);       
       $('#description > img.imgb').css({'min-width':widthb, 'height':heightb, 'max-width':widthb});
+      $('#description').addClass("stretchRightNey");
     });
 
     $('#a li.cai-5').click(function(){
       $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
-      $('#description').addClass("stretchRightNey");
-      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/qiang.jpg-ui.jpg'  />");
+      //$('#description').addClass("stretchRightNey");
+      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/wang/qiangb.png-ui.jpg'  />");
       $('#description').css('top', topoffsetb); 
       $('#description > img.imgb').css({'min-width':widthb, 'height':heightb, 'max-width':widthb});
+      $('#description').addClass("stretchRightNey");
     });
 
 });
