@@ -81,6 +81,7 @@ $(document).ready(function(){
       $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/wang/jieb.png-ui.jpg'  />");
       $('#description').css('top', topoffsetb); 
       $('#description > img.imgb').css({'min-width':widthb, 'height':heightb, 'max-width':widthb});
+      $('#description').addClass("stretchRightNey");
         
     });
 
