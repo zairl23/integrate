@@ -78,7 +78,7 @@ $(document).ready(function(){
       $('#team').removeClass();
       $('#description').addClass("stretchRightNey");
       $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/jie.jpg-ui.jpg'  />");
-      //$('#description').css('top', topoffsetb); 
+      $('#description').css('top', topoffsetb); 
       $('#description > img.imgb').css({'min-width':widthb, 'height':heightb, 'max-width':widthb});
     });
 
