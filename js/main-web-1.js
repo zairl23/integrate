@@ -38,7 +38,7 @@ $(document).ready(function(){
        // $(this).css('left', '0');
         $(this).hide();
         $('#team').hide();
-        $('#description-1').show().addClass("pullDownNey");
+        $('#description-1').addClass("pullDownNey").show();
         $('#description-1').css('overflow-y', 'visible');
     });
     
@@ -88,10 +88,11 @@ $(document).ready(function(){
       $('#logo').hide();
       $('#team').hide();
       $('#team').removeClass();
-      $('#description').addClass("stretchRightNey");
+      //$('#description').addClass("stretchRightNey");
       $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/wang/neyb.png-ui.jpg'  />");
       $('#description').css({'top':topoffsetb}); 
       $('#description > img.imgb').css({'min-width':widthb, 'height':heightb, 'max-width':widthb});
+      $('#description').addClass("stretchRightNey");
     });
 
     $('#a li.cai-4').click(function(){
@@ -103,6 +104,7 @@ $(document).ready(function(){
       $('#description').css('top', topoffsetb);       
       $('#description > img.imgb').css({'min-width':widthb, 'height':heightb, 'max-width':widthb});
       $('#description').addClass("stretchRightNey");
+      
     });
 
     $('#a li.cai-5').click(function(){
