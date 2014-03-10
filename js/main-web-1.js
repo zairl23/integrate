@@ -29,8 +29,6 @@ $(document).ready(function(){
        $(this).hide();
        $('#logo').show();
        $('#team').addClass("slideLeftNey").show();
-       
-      // $('#cover').show();
     });    
     
     $('#logo').click(function(){
@@ -89,7 +87,7 @@ $(document).ready(function(){
       $('#team').hide();
       $('#team').removeClass();
       //$('#description').addClass("stretchRightNey");
-      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/wang/neyb.png-ui.jpg'  />");
+      $('#description').html("<img class='imgb' src='http://meow-avatars.u.qiniudn.com/wang/leib.png-ui.jpg'  />");
       $('#description').css({'top':topoffsetb}); 
       $('#description > img.imgb').css({'min-width':widthb, 'height':heightb, 'max-width':widthb});
       $('#description').addClass("stretchRightNey");

@@ -91,6 +91,17 @@ ul, ol, dd {
       }
       //@include rwdEach();
         //@include each();
+        #logo {
+            verticle-align:center;
+            img {
+                position:absolute;
+                width:100%;
+                top:20;
+                height:0;
+                margin:auto;
+            }
+        }
+    
         li.cai {
             opacity: 0;
             transition: opacity .7s;
@@ -101,6 +112,8 @@ ul, ol, dd {
       
     }
 }
+
+#logo
 
 #description {
     position: absolute;
