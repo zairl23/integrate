@@ -52,40 +52,53 @@ ul, ol, dd {
   list-style: none;
 }
 /* line 94, ../sass/screen-web-1.scss */
+#team ul#a #logo {
+  verticle-align: center;
+}
+/* line 96, ../sass/screen-web-1.scss */
+#team ul#a #logo img {
+  position: absolute;
+  width: 100%;
+  top: 20;
+  height: 0;
+  margin: auto;
+}
+/* line 105, ../sass/screen-web-1.scss */
 #team ul#a li.cai {
   opacity: 0;
   transition: opacity .7s;
 }
-/* line 97, ../sass/screen-web-1.scss */
+/* line 108, ../sass/screen-web-1.scss */
 #team ul#a li.cai:hover {
   opacity: 1;
 }
 
-/* line 105, ../sass/screen-web-1.scss */
+/* line 118, ../sass/screen-web-1.scss */
+#logo
 #description {
   position: absolute;
   overflow-y: hidden;
 }
 
-/* line 110, ../sass/screen-web-1.scss */
+/* line 123, ../sass/screen-web-1.scss */
 #description-1 {
   display: none;
 }
 
-/* line 129, ../sass/screen-web-1.scss */
+/* line 142, ../sass/screen-web-1.scss */
 .close img {
   cursor: url(http://fujifilm-x.com/x-pro1/common/images/btn_close.png), auto;
 }
-/* line 134, ../sass/screen-web-1.scss */
+/* line 147, ../sass/screen-web-1.scss */
 .close .scroll {
   overflow: visible;
 }
-/* line 138, ../sass/screen-web-1.scss */
+/* line 151, ../sass/screen-web-1.scss */
 .close li.cai {
   opacity: 0;
   transition: opacity .7s;
 }
-/* line 141, ../sass/screen-web-1.scss */
+/* line 154, ../sass/screen-web-1.scss */
 .close li.cai:hover {
   opacity: 1;
 }
