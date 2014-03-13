@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>test film play demo</title>
+    <link href="http://vjs.zencdn.net/4.0/video-js.css" rel="stylesheet">
+    <style>
+        .vjs-loading-spinner {
+            display:none;
+        }
+    </style>
+  </head>
+  <body>
+    <video id="video" class="video-js vjs-default-skin" auoload data-setup="" width="640" height="264"></video>
+    <h1></h1>
+    <button type="button" data-action="prev">Previous</button>
+    <button type="button" data-action="next">Next</button>
+
+    <script src="http://vjs.zencdn.net/4.3.0/video.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./js/videojs-playlists.js"></script>
+    <script>
+      var videos = [
+        {
+          src : [                
+            'http://meow8.u.qiniudn.com/videos/20140124204347.mp4-fire.webm'
+          ],
+          poster : 'http://meow8.u.qiniudn.com/videos/20140118121341.mp4-thumbnail.jpg',
+          title : 'Video 1'
+        },
+        {
+          src : [
+            'http://meow8.u.qiniudn.com/videos/20140118121341.mp4-fire.webm'
+          ],
+          poster : 'http://meow8.u.qiniudn.com/videos/20140118121341.mp4-thumbnail.jpg',
+          title : 'Video 2'
+        },
+        {
+          src : [
+            'http://meow8.u.qiniudn.com/videos/20140210225922.mp4-fire.webm'            
+          ],
+          poster : 'http://meow8.u.qiniudn.com/videos/20140210225922.mp4-thumbnail.jpg',
+          title : 'Video 3'
+        },
+        {
+          src : [
+            'http://meow8.u.qiniudn.com/videos/20140106171727.mp4-fire.webm'            
+          ],
+          poster : 'http://meow8.u.qiniudn.com/videos/20140121121558.mp4-thumbnail.jpg',
+          title : 'Video 3'
+        },
+        {
+          src : [
+            'http://meow8.u.qiniudn.com/videos/20140209154159.mp4-fire.webm'            
+          ],
+          poster : 'http://meow8.u.qiniudn.com/videos/20140209154159.mp4-thumbnail.jpg',
+          title : 'Video 3'
+        },
+
+        {
+          src : [
+            'http://meow8.u.qiniudn.com/videos/20140112001103.mp4-fire.webm'            
+          ],
+          poster : 'http://meow8.u.qiniudn.com/videos/20140112001103.mp4-thumbnail.jpg',
+          title : 'Video 3'
+        }
+      ];
+      var player = videojs('video');
+      player.playList(videos, {
+        getVideoSource: function(vid, cb) {
+          cb(vid.src, vid.poster);
+        }
+      });
+      // for 
+      player.on('lastVideoEnded', function(e){
+         player.playList(0);
+         player.play();
+      });
+      // not show loading
+      //player.on('waiting', videojs.bind(videojs.LoadingSpinner, videojs.LoadingSpinner.hide));
+
+      $('[data-action=prev]').on('click', function(e) {
+        player.prev();
+      });
+      $('[data-action=next]').on('click', function(e) {
+        player.next();
+      });        
+    </script>
+    
+  </body>
+</html>
