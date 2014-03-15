@@ -36,11 +36,13 @@ $(document).ready(function(){
         $(this).hide();
         $('#team').hide();
         $('#description-1').addClass("pullDownNey").show();
-        $('#description-1').css('overflow-y', 'visible');
+        //$('#description-1').css('overflow-y', 'visible');
+        $('body').css('overflow-y', 'scroll');
     });
     
     $('#description-1').click(function(){
         // top the page
+        $('body').css('overflow-y', 'hidden');
         $(this).removeClass('pullDownNey');   
         $(this).hide();
         $(document).scrollTop(0);
